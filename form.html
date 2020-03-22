@@ -1,0 +1,86 @@
+<!doctype html>
+<html>
+    <head>
+        <script>
+             function fun1()
+            {
+                alert("I will revert to you shortly");
+            }
+             
+           
+        </script>
+        <style>
+             body{
+                background-color: #FEE140;
+                background-image: linear-gradient(90deg, #FEE140 0%, #FA709A 100%);
+            }
+
+            .align
+            {
+                position:relative;
+                left:35%;
+                border:2px solid black;
+                width:20%;
+                height: fit-content;
+                padding:25px;
+                border-radius: 15px;
+            }
+        </style>
+       
+    </head>
+    <body>
+    <div class="align">
+        <form method="" action="">
+            <h1 style="text-align:center;">FORM</h1>
+            <table>
+                <tr>
+                    <td> <label for="fname">First name :</label></td>
+                    <td><input type="text" id="fname" name="firstname"></td><br>
+                </tr>  
+
+                <tr>
+                    <td><label for="lname">last name :</label></td>
+                    <td> <input type="text" id="lname" name="lastname"></td><br> 
+                </tr>
+
+                <tr>
+                    <td><label for="lname">last name :</label></td>
+                    <td> <input type="text" id="lname" name="lastname"></td><br>
+                </tr>
+                
+                <tr>
+                    <td><label for="lname">last name :</label></td>
+                    <td> <input type="text" id="lname" name="lastname"></td><br>
+                </tr>
+
+                <tr>
+                    <td><label for="gender">Sex :</label></td>
+                    <td>
+                        <label>male:</label>
+                        <input type="radio"  name="gender" value="male">
+                        <label>female:</label>
+                        <input type="radio"  name="gender" value="female">
+                    </td><br>
+                </tr>
+
+                <tr>
+                    <td><label for="mali">email :</label></td>
+                    <td><input type="text" id="mail" name="email"></td><br>
+                </tr>
+
+                <tr>
+                    <td><label for="dob" >DOB :</label></td>
+                    <td><input type="date" id="dob" name="dob"></td><br>
+                </tr>
+
+                <tr>
+                    <td><input type="submit" onclick="fun1();" name="submit" value="submit"></td>
+                </tr>
+                    
+            </table>
+            
+        </form>
+    </div>
+        
+    </body>
+</html>
